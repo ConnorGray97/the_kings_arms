@@ -1,4 +1,17 @@
 
+* {
+    margin: 0;
+    padding-top: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    scroll-padding-top: 80px;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+}
 
 /* -------------------------------NAV*/
 nav {
@@ -12,7 +25,6 @@ nav {
 .logo {
     height: 150px;
     text-align: center;
-    padding-left: 30px;
     padding-top: 10px;
 }
 
@@ -54,10 +66,30 @@ nav #icon {
     float: right;
     margin-right: 40px;
     cursor: pointer;
-    /* display: none; */
+    display: block;
 }
 
 nav ul.show{
     right: 0px;
 }
 /* -------------------------------END NAV*/
+
+/* -------------------------------CART*/
+:root {
+    --primaryColor: orange;
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --mainSpacing: 0.1rem;
+    --mainTransition: all 0.3s linear;
+}
+
+.cart-btn {
+    position: relative;
+    cursor: pointer;
+    float: left;
+    top: 25px;
+    left: 38px;
+}
+
+/* -------------------------------END CART*/
