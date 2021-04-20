@@ -9,6 +9,13 @@ nav {
     width: 100%;
 }
 
+.logo {
+    height: 150px;
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
 nav ul {
     position: fixed;
     width: 400px;
