@@ -570,9 +570,12 @@ div#map {
 
 
 @media screen and (max-width: 420px) {
+    .logo {
+        height: 100px;
+    }
 
     .reservation p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .product-list {
@@ -584,6 +587,9 @@ div#map {
     }
     .menu-container {
     padding: 55px;
+}
+textarea {
+    width: 80%;
 }
 }
 
