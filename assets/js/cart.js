@@ -20,19 +20,8 @@ for (var i = 0; i < removeCartItemButtons.length; i++) {
         
 }
 
-//Opens cart on cart click
-document.getElementById('cart-button').addEventListener('click', openCart); 
 
-function openCart(){
-    document.querySelector('.cart').style.transform = 'translateX(0)';
-}
 
-//Closes cart on close button click
-document.getElementById('close-button').addEventListener('click', closeCart);
-
-function closeCart(){
-    document.querySelector('.cart').style.transform = 'translateX(-100%)';
-}
 
 
 //Change event listener for product inputs
@@ -461,6 +450,20 @@ $("#drinks-button").click(function () {
     `;
     ready();
 });
+
+//Opens cart on cart click
+document.getElementById('cart-button').addEventListener('click', openCart); 
+
+function openCart(){
+    document.querySelector('.cart').style.transform = 'translateX(0)';
+}
+
+//Closes cart on close button click
+document.getElementById('close-button').addEventListener('click', closeCart);
+
+function closeCart(){
+    document.querySelector('.cart').style.transform = 'translateX(-100%)';
+}
 //----------------------END TOGGLE BETWEEN MENU CHOICES
 
 

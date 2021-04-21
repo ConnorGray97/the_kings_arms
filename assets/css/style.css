@@ -31,14 +31,14 @@ nav {
     z-index: 300;
 }
 
-nav ul {
+.nav-right {
     position: fixed;
     width: 400px;
     height: 100vh;
     background: #000000;
     top: 80px;
     right: -102%;
-    transition: all .5s;
+    transition: all 1s;
     font-family: 'Libre Baskerville', serif;
     font-weight: 100;
     text-transform: uppercase;
@@ -245,6 +245,7 @@ nav ul.show{
     color: #faf0dc;
     font-family: 'Noto Serif KR', serif;
     padding: 40px;
+    padding-top: 75px;
     text-align: center;
     font-size: 20px;
 }
