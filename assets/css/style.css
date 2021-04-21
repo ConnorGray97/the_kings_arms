@@ -570,12 +570,27 @@ div#map {
 
 
 @media screen and (max-width: 420px) {
-    nav ul{
+
+    .reservation p {
+        font-size: 10px;
+    }
+
+    .product-list {
+        grid-template-columns: none;
+    }
+
+    .nav-right {
         width: 100vw;
     }
     .menu-container {
     padding: 55px;
 }
 }
+
+@media screen and (max-width: 320px) {
+   
+}
+
+
 
 /* -------------------------------END MEDIA QUERIES */
