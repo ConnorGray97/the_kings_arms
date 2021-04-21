@@ -77,6 +77,22 @@ nav ul.show{
 }
 /* -------------------------------END NAV*/
 
+/* -------------------------------PARALLAX */
+
+.parallax-one {
+    min-height: 300px;
+    background: transparent;
+}
+
+@media screen and (max-width: 769px) {
+    .parallax-one {
+        background-attachment: inherit;
+    }
+}
+
+/* -------------------------------END PARALLAX */
+
+
 /* -------------------------------CART*/
 :root {
     --primaryColor: orange;
@@ -239,17 +255,66 @@ button {
 
 /* -------------------------------END RESERVATION SECTION */
 
-/* -------------------------------PARALLAX */
+/* -------------------------------MENU SECTION */
 
-.parallax-one {
-    min-height: 300px;
-    background: transparent;
+.menu-choice {
+    text-align: center;
 }
 
-@media screen and (max-width: 769px) {
-    .parallax-one {
-        background-attachment: inherit;
-    }
+.products {
+    padding: 4rem 0;
+    background: #faf0dc;
+    height: auto;
 }
 
-/* -------------------------------END PARALLAX */
+.menu-container {
+    padding: 80px;
+}
+
+.product-list {
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+}
+
+.product-items {
+    margin: 0 auto;
+}
+
+.description p {
+    font-size: 12px;
+}
+
+.products h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.product-content {
+    padding: 1.6rem 0;
+    text-align: center;
+}
+
+.add-to-cart-btn {
+    border: none;
+    color: orange;
+}
+
+.product-item:hover .add-to-cart-btn {
+    opacity: 1;
+}
+
+.add-to-cart-btn .fas {
+    margin-right: 0.4rem;
+}
+
+.add-to-cart-btn:hover {
+    background-color: none;
+    color: #000000;
+}
+/* -------------------------------END MENU SECTION */
+
+
