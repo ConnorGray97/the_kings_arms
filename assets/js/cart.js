@@ -31,7 +31,7 @@ for (var i = 0; i < quantityInputs.length; i++) {
     input.addEventListener('change', quantityChanged);
 }
 
-var addToCartButtons = document.getElementsByClassName('add-to-cart-btn')
+var addToCartButtons = document.getElementsByClassName('add-to-cart-btn');
 for (var i = 0; i < addToCartButtons.length; i++) {
     var button = addToCartButtons[i];
     button.addEventListener('click', addToCartClicked);
@@ -208,6 +208,7 @@ $("#smalls-button").click(function () {
     ready();
 });
 
+//gets mains buttona and on click toggles to mains list
 $("#mains-button").click(function () {
     document.getElementById("mains-button").classList.add("btn-success");
     const smalls = document.getElementById("smalls-button");
