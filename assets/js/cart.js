@@ -12,7 +12,7 @@ if(document.readyState == 'loading') {
 }
 
 function ready() {
-    //Removes Item from cart on remove click
+//Removes Item from cart on remove click
 var removeCartItemButtons = document.getElementsByClassName('remove-item');
 for (var i = 0; i < removeCartItemButtons.length; i++) {
     var button = removeCartItemButtons[i];
@@ -20,6 +20,7 @@ for (var i = 0; i < removeCartItemButtons.length; i++) {
         
 }
 
+//Change event listener for product inputs
 var quantityInputs = document.getElementsByClassName('quantity-input');
 for (var i = 0; i < quantityInputs.length; i++) {
     var input = quantityInputs[i];
@@ -30,6 +31,17 @@ var addToCartButtons = document.getElementsByClassName('add-to-cart-btn')
 for (var i = 0; i < addToCartButtons.length; i++) {
     var button = addToCartButtons[i];
     button.addEventListener('click', addToCartClicked);
+}
+
+document.getElementsByClassName('checkout')[0].addEventListener('click', purchaseClicked);
+
+function PurchaseClicked() {
+    alert('Online payments are not currently available. A member of staff will be in contact shortly to process payment. Thank you!')
+    var cartItems = document.getElementsByClassName('cart-list')[0];
+    while (cartItems.hasChildNodes()){
+        cartItems.removeChild(cartItems.firstChild);//Removes cart items and displays message when purchase is clicked.
+    }
+    updateCartTotal();
 }
 
 }
