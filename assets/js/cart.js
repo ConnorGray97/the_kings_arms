@@ -206,7 +206,7 @@ $("#mains-button").click(function () {
                                     laborum
                                     quaerat deleniti nemo! Alias rerum, </p>
                             </div>
-                            <p class="product-price">$120.00</p>
+                            <p class="product-price">£120.00</p>
                             <div>
                                 <button type="button" class="add-to-cart-btn">
                                     <i class="fas fa-shopping-cart"></i>Add To Cart
@@ -223,7 +223,7 @@ $("#mains-button").click(function () {
                                     laborum
                                     quaerat deleniti nemo! Alias rerum, </p>
                             </div>
-                            <p class="product-price">$120.00</p>
+                            <p class="product-price">£120.00</p>
                             <div>
                                 <button type="button" class="add-to-cart-btn">
                                     <i class="fas fa-shopping-cart"></i>Add To Cart
@@ -240,7 +240,7 @@ $("#mains-button").click(function () {
                                     laborum
                                     quaerat deleniti nemo! Alias rerum, </p>
                             </div>
-                            <p class="product-price">$120.00</p>
+                            <p class="product-price">£120.00</p>
                             <div>
                                 <button type="button" class="add-to-cart-btn">
                                     <i class="fas fa-shopping-cart"></i>Add To Cart
@@ -257,7 +257,7 @@ $("#mains-button").click(function () {
                                     laborum
                                     quaerat deleniti nemo! Alias rerum, </p>
                             </div>
-                            <p class="product-price">$120.00</p>
+                            <p class="product-price">£120.00</p>
                             <div>
                                 <button type="button" class="add-to-cart-btn">
                                     <i class="fas fa-shopping-cart"></i>Add To Cart
@@ -287,7 +287,7 @@ $("#desserts-button").click(function () {
                                     laborum
                                     quaerat deleniti nemo! Alias rerum, </p>
                             </div>
-                            <p class="product-price">$120.00</p>
+                            <p class="product-price">£120.00</p>
                             <div>
                                 <button type="button" class="add-to-cart-btn">
                                     <i class="fas fa-shopping-cart"></i>Add To Cart
@@ -304,7 +304,7 @@ $("#desserts-button").click(function () {
                                     laborum
                                     quaerat deleniti nemo! Alias rerum, </p>
                             </div>
-                            <p class="product-price">$120.00</p>
+                            <p class="product-price">£120.00</p>
                             <div>
                                 <button type="button" class="add-to-cart-btn">
                                     <i class="fas fa-shopping-cart"></i>Add To Cart
@@ -321,7 +321,7 @@ $("#desserts-button").click(function () {
                                     laborum
                                     quaerat deleniti nemo! Alias rerum, </p>
                             </div>
-                            <p class="product-price">$120.00</p>
+                            <p class="product-price">£120.00</p>
                             <div>
                                 <button type="button" class="add-to-cart-btn">
                                     <i class="fas fa-shopping-cart"></i>Add To Cart
@@ -338,7 +338,7 @@ $("#desserts-button").click(function () {
                                     laborum
                                     quaerat deleniti nemo! Alias rerum, </p>
                             </div>
-                            <p class="product-price">$120.00</p>
+                            <p class="product-price">£120.00</p>
                             <div>
                                 <button type="button" class="add-to-cart-btn">
                                     <i class="fas fa-shopping-cart"></i>Add To Cart
@@ -369,7 +369,7 @@ $("#drinks-button").click(function () {
                                     laborum
                                     quaerat deleniti nemo! Alias rerum, </p>
                             </div>
-                            <p class="product-price">$120.00</p>
+                            <p class="product-price">£120.00</p>
                             <div>
                                 <button type="button" class="add-to-cart-btn">
                                     <i class="fas fa-shopping-cart"></i>Add To Cart
@@ -386,7 +386,7 @@ $("#drinks-button").click(function () {
                                     laborum
                                     quaerat deleniti nemo! Alias rerum, </p>
                             </div>
-                            <p class="product-price">$120.00</p>
+                            <p class="product-price">£120.00</p>
                             <div>
                                 <button type="button" class="add-to-cart-btn">
                                     <i class="fas fa-shopping-cart"></i>Add To Cart
@@ -403,7 +403,7 @@ $("#drinks-button").click(function () {
                                     laborum
                                     quaerat deleniti nemo! Alias rerum, </p>
                             </div>
-                            <p class="product-price">$120.00</p>
+                            <p class="product-price">£120.00</p>
                             <div>
                                 <button type="button" class="add-to-cart-btn">
                                     <i class="fas fa-shopping-cart"></i>Add To Cart
@@ -420,7 +420,7 @@ $("#drinks-button").click(function () {
                                     laborum
                                     quaerat deleniti nemo! Alias rerum, </p>
                             </div>
-                            <p class="product-price">$120.00</p>
+                            <p class="product-price">£120.00</p>
                             <div>
                                 <button type="button" class="add-to-cart-btn">
                                     <i class="fas fa-shopping-cart"></i>Add To Cart
