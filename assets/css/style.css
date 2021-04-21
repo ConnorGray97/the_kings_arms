@@ -535,9 +535,17 @@ textarea {
 @media screen and (max-width: 768px) {}
 
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+    nav ul{
+        width: 100vw;
+    }
+}
 
 
-@media screen and (max-width: 420px) {}
+@media screen and (max-width: 420px) {
+    nav ul{
+        width: 100vw;
+    }
+}
 
 /* -------------------------------END MEDIA QUERIES */
