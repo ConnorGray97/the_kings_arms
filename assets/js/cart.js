@@ -33,9 +33,9 @@ for (var i = 0; i < addToCartButtons.length; i++) {
     button.addEventListener('click', addToCartClicked);
 }
 
-document.getElementsByClassName('checkout')[0].addEventListener('click', purchaseClicked);
+document.getElementsByClassName('banner-btn')[0].addEventListener('click', purchaseClicked);
 
-function PurchaseClicked() {
+function purchaseClicked() {
     alert('Online payments are not currently available. A member of staff will be in contact shortly to process payment. Thank you!')
     var cartItems = document.getElementsByClassName('cart-list')[0];
     while (cartItems.hasChildNodes()){

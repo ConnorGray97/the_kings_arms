@@ -217,6 +217,17 @@ nav ul.show{
     margin-bottom: 1rem;
 }
 
+.checkout {
+    color: orange;
+    border: 1px solid orange;
+}
+
+.checkout:hover {
+    cursor: pointer;
+    color: #222;
+
+}
+
 /* -------------------------------END CART*/
 
 /* -------------------------------RESERVATION SECTION */
