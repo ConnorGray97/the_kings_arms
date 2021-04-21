@@ -1,3 +1,9 @@
+// Tips were taken from various videos I will link below.
+//https://www.youtube.com/watch?v=YeFzkC2awTM&t=1859s
+//https://www.youtube.com/watch?v=90PgFUPIybY&t=8384s
+
+
+
 if(document.readyState == 'loading') {
     document.addEventListener('DOMContentLoaded', ready) //Checks to make sure all html elements are loaded before executing.
 
@@ -35,7 +41,7 @@ function removeCartItem(event) {
    
 }
 
-function quantityChanged(event) {
+function quantityChanged(event) { //Makes sure user can't have any less than one products in basket.
     var input = event.target;
     if (isNaN(input.value) || input.value <= 0){
         input.value = 1;
@@ -51,6 +57,8 @@ function addToCartClicked(event) {
     addItemToCart(title, price);
     updateCartTotal()
 }
+
+//adds div to cart list and inputs the price and title of product added.
 
 function addItemToCart(title, price){
     var cartRow = document.createElement('div');
@@ -118,7 +126,7 @@ $("#smalls-button").click(function () {
                                     laborum
                                     quaerat deleniti nemo! Alias rerum, </p>
                             </div>
-                            <p class="product-price">$120.00</p>
+                            <p class="product-price">£120.00</p>
                             <div>
                                 <button type="button" class="add-to-cart-btn">
                                     <i class="fas fa-shopping-cart"></i>Add To Cart
@@ -135,7 +143,7 @@ $("#smalls-button").click(function () {
                                     laborum
                                     quaerat deleniti nemo! Alias rerum, </p>
                             </div>
-                            <p class="product-price">$120.00</p>
+                            <p class="product-price">£120.00</p>
                             <div>
                                 <button type="button" class="add-to-cart-btn">
                                     <i class="fas fa-shopping-cart"></i>Add To Cart
@@ -152,7 +160,7 @@ $("#smalls-button").click(function () {
                                     laborum
                                     quaerat deleniti nemo! Alias rerum, </p>
                             </div>
-                            <p class="product-price">$120.00</p>
+                            <p class="product-price">£120.00</p>
                             <div>
                                 <button type="button" class="add-to-cart-btn">
                                     <i class="fas fa-shopping-cart"></i>Add To Cart
@@ -169,7 +177,7 @@ $("#smalls-button").click(function () {
                                     laborum
                                     quaerat deleniti nemo! Alias rerum, </p>
                             </div>
-                            <p class="product-price">$120.00</p>
+                            <p class="product-price">£120.00</p>
                             <div>
                                 <button type="button" class="add-to-cart-btn">
                                     <i class="fas fa-shopping-cart"></i>Add To Cart
