@@ -80,8 +80,16 @@ nav ul.show{
 /* -------------------------------PARALLAX */
 
 .parallax-one {
-    min-height: 300px;
     background: transparent;
+}
+
+.parallax-one {
+    height: 500px;
+    background-image: url(./assets/img/res3.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
 @media screen and (max-width: 769px) {
@@ -135,7 +143,7 @@ nav ul.show{
     background: #faf0dc;
     padding: 1.5rem;
     transition: var(--mainTransition);
-    /* transform: rotateX(-100%); */
+    transform: translateX(-100%);
 }
 
 .showCart {
