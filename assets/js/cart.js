@@ -1,3 +1,5 @@
+
+//----------------------TOGGLE BETWEEN MENU CHOICES
 // Get starters button and on click change back to starters menu
 $("#smalls-button").click(function () {
     document.getElementById("smalls-button").classList.add("btn-success");
@@ -322,3 +324,18 @@ $("#drinks-button").click(function () {
     `;
     ready();
 });
+//----------------------END TOGGLE BETWEEN MENU CHOICES
+
+//Removes Item from cart on remove click
+var removeCartItemButtons = document.getElementsByClassName('remove-item');
+for (var i = 0; i < removeCartItemButtons.length; i++) {
+    var button = removeCartItemButtons[i];
+    button.addEventListener('click', function(event){
+        var buttonClicked = event.target;
+        buttonClicked.parentElement.parentElement.remove();
+
+    });
+}
+
+
+
