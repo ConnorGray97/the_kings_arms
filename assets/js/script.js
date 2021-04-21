@@ -39,7 +39,4 @@ function resize_parallax(div_id, img_w, img_h) {
 
 //-------------------------------------------------CONTACT FORM VALIDATION
 
-
-
-
 //-------------------------------------------------END CONTACT FORM VALIDATION
