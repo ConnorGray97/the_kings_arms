@@ -67,6 +67,7 @@ function quantityChanged(event) { //Makes sure user can't have any less than one
 }
 
 function addToCartClicked(event) {
+    alert('Item added to cart');
     var button = event.target
     var shopItem = button.parentElement.parentElement
     var title = shopItem.getElementsByClassName('product-name')[0].innerText;
