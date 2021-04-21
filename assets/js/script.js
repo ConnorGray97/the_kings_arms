@@ -1,4 +1,5 @@
-//Responsive parallax scroll
+
+//-----------------------------------------------RESPONSIVE PARALLAX SCROLL VALIDATION
 // Credits to inkplant for the responsive parallax image https://inkplant.com/code/responsive-parallax-images 
 
 
@@ -33,4 +34,12 @@ function resize_parallax(div_id, img_w, img_h) {
     newheight = newheight + 'px';
     div.height(newheight);
 }
-// End of responsive parallax scroll
+//-----------------------------------------------END RESPONSIVE PARALLAX SCROLL VALIDATION
+
+
+//-------------------------------------------------CONTACT FORM VALIDATION
+
+
+
+
+//-------------------------------------------------END CONTACT FORM VALIDATION

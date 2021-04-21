@@ -144,16 +144,9 @@ nav ul.show{
     background: #faf0dc;
     padding: 1.5rem;
     transition: var(--mainTransition);
-    /* transform: translateX(-100%); */
-}
-
-.showCart {
-    transform: translateX(0);
-}
-
-.closeCart {
     transform: translateX(-100%);
 }
+
 
 @media screen and (min-width: 768px) {
     .cart {
@@ -233,11 +226,12 @@ nav ul.show{
 /* -------------------------------RESERVATION SECTION */
 
 .reservation {
-    height: 550px;
+    height: 650px;
     width: 100vw;
     background: #000000;
     text-align: center;
     clear: both;
+    padding-top: 10px;
 }
 
 .reservation p {

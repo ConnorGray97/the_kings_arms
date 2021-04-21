@@ -20,6 +20,21 @@ for (var i = 0; i < removeCartItemButtons.length; i++) {
         
 }
 
+//Opens cart on cart click
+document.getElementById('cart-button').addEventListener('click', openCart); 
+
+function openCart(){
+    document.querySelector('.cart').style.transform = 'translateX(0)';
+}
+
+//Closes cart on close button click
+document.getElementById('close-button').addEventListener('click', closeCart);
+
+function closeCart(){
+    document.querySelector('.cart').style.transform = 'translateX(-100%)';
+}
+
+
 //Change event listener for product inputs
 var quantityInputs = document.getElementsByClassName('quantity-input');
 for (var i = 0; i < quantityInputs.length; i++) {
@@ -42,9 +57,10 @@ function purchaseClicked() {
         cartItems.removeChild(cartItems.firstChild);//Removes cart items and displays message when purchase is clicked.
     }
     updateCartTotal();
+ }
 }
 
-}
+
 
 function removeCartItem(event) {
         var buttonClicked = event.target;
@@ -114,6 +130,7 @@ function updateCartTotal(){
     total = Math.round(total * 100) /100; //rounds total to nearest two decimal places
     document.getElementsByClassName('cart-total')[0].innerText = '£' + total;
 }
+
 
 
 
