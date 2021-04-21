@@ -1,4 +1,5 @@
 //Responsive parallax scroll
+// Credits to inkplant for the responsive parallax image https://inkplant.com/code/responsive-parallax-images 
 
 
 //Resize images on page load

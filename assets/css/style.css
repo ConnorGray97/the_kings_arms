@@ -79,8 +79,9 @@ nav ul.show{
 
 /* -------------------------------PARALLAX */
 
-.parallax-one {
+.parallax-one, .parallax-two {
     background: transparent;
+    height: 400px;
 }
 
 .parallax-one {
@@ -264,6 +265,11 @@ button {
 /* -------------------------------END RESERVATION SECTION */
 
 /* -------------------------------MENU SECTION */
+
+.menu-buttons button {
+    color: #222;
+    cursor: pointer;
+}
 
 .menu-choice {
     text-align: center;
