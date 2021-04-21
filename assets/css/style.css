@@ -144,7 +144,7 @@ nav ul.show{
     background: #faf0dc;
     padding: 1.5rem;
     transition: var(--mainTransition);
-    transform: translateX(-100%);
+    /* transform: translateX(-100%); */
 }
 
 .showCart {
