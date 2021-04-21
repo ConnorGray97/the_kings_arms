@@ -20,6 +20,11 @@ for (var i = 0; i < quantityInputs.length; i++) {
     input.addEventListener('change', quantityChanged);
 }
 
+var addToCartButtons = document.getElementsByClassName('add-to-cart-btn')
+for (var i = 0; i < addToCartButtons.length; i++) {
+    var button = addToCartButtons[i];
+    button.addEventListener('click', addToCartClicked);
+}
 
 }
 
@@ -36,6 +41,41 @@ function quantityChanged(event) {
         input.value = 1;
     }
     updateCartTotal();
+}
+
+function addToCartClicked(event) {
+    var button = event.target
+    var shopItem = button.parentElement.parentElement
+    var title = shopItem.getElementsByClassName('product-name')[0].innerText;
+    var price = shopItem.getElementsByClassName('product-price')[0].innerText;
+    addItemToCart(title, price);
+    updateCartTotal()
+}
+
+function addItemToCart(title, price){
+    var cartRow = document.createElement('div');
+    cartRow.classList.add('cart-row');
+    var cartItems = document.getElementsByClassName('cart-list')[0];
+    var cartItemNames = cartItems.getElementsByClassName('cart-item-title');
+    for (var i = 0; i < cartItemNames.length; i++){
+        if (cartItemNames[i].innerText == title){
+            alert('This item is already in your cart');
+            return;
+        }
+    }
+    var cartRowContents = `
+            <div class="cart-item">
+                <h4 class="cart-item-title">${title}</h4>
+                <h5 class="cart-item-price">${price}</h5>
+                <span class="remove-item">Remove</span>
+            </div>
+            <div class="item-quantity">
+                <input class="quantity-input" type="number" value="1">
+            </div>`
+            cartRow.innerHTML = cartRowContents
+    cartItems.append(cartRow);
+    cartRow.getElementsByClassName('remove-item')[0].addEventListener('click', removeCartItem);
+    cartRow.getElementsByClassName('quantity-input')[0].addEventListener('change', quantityChanged);
 }
 
 //Updates cart total when item is removed from cart
