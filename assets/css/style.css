@@ -526,3 +526,18 @@ textarea {
 /*END Contact Form*/
 
 /* -------------------------------END CONTACT FORM */
+
+/* -------------------------------MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {}
+
+
+@media screen and (max-width: 768px) {}
+
+
+@media screen and (max-width: 480px) {}
+
+
+@media screen and (max-width: 420px) {}
+
+/* -------------------------------END MEDIA QUERIES */
