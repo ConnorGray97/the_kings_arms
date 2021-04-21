@@ -331,4 +331,198 @@ button {
 }
 /* -------------------------------END MENU SECTION */
 
+/* -------------------------------CONTACT FORM  */
+/* https://codepen.io/dfitzy/pen/VepqMq */
+/* I took some of the css to style my own contact page from this design */
+/*END Contact Form*/
+/* contact section */
+.contact-container {
+    height: 700px;
+    background: #000000;
+    width: 100vw;
+    clear: both;
+}
 
+button {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+input,
+select,
+textarea {
+    color: rgb(255, 255, 255);
+    font: inherit;
+    margin: 0;
+}
+
+input {
+    line-height: normal;
+}
+
+textarea {
+    overflow: auto;
+    line-height: 150%;
+    height: 109px;
+    resize: none;
+    width: 100%;
+}
+
+#contact-page {
+    max-width: 600px;
+    margin: 0 auto 0 auto;
+    position: relative;
+    z-index: 6;
+    top: 100px;
+    padding-bottom: 10px;
+    overflow: visible;
+}
+
+#contact-form {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+form {
+    padding: 0px;
+    margin: 0px 0;
+    overflow: visible;
+}
+
+.contact-container h2 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.underline {
+    border-bottom: solid 2px rgb(255, 255, 255);
+    margin: -0.512em auto;
+    width: 80px;
+}
+
+.email {
+    float: right;
+    width: 45%;
+}
+
+
+input[type='text'],
+[type='email'],
+select,
+textarea {
+    background: none;
+    border: none;
+    border-bottom: solid 2px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0em 0 1.875em 0;
+    padding: 0 0 0.875em 0;
+    text-transform: uppercase;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+input[type='text']:focus,
+[type='email']:focus,
+textarea:focus {
+    outline: none;
+    padding: 0 0 0.875em 0;
+}
+
+.message {
+    float: none;
+}
+
+.name {
+    float: left;
+    width: 45%;
+}
+
+textarea {
+    line-height: 150%;
+    height: 150px;
+    resize: none;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+:-moz-placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+#form-button {
+    background: none;
+    border: solid 2px white;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: bold;
+    outline: none;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#form-button:hover {
+    background: #EFA484;
+    color: rgb(255, 255, 255);
+}
+
+.details {
+    font-family: serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+#contact-form a:hover {
+    text-decoration: none;
+    color: #EFA484;
+}
+
+/* https://codepen.io/dfitzy/pen/VepqMq */
+/* I took some of the css to style my own contact page from this design */
+/*END Contact Form*/
+
+/* -------------------------------END CONTACT FORM */
