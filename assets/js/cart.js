@@ -13,6 +13,14 @@ for (var i = 0; i < removeCartItemButtons.length; i++) {
     button.addEventListener('click', removeCartItem);
         
 }
+
+var quantityInputs = document.getElementsByClassName('quantity-input');
+for (var i = 0; i < quantityInputs.length; i++) {
+    var input = quantityInputs[i];
+    input.addEventListener('change', quantityChanged);
+}
+
+
 }
 
 function removeCartItem(event) {
@@ -20,6 +28,14 @@ function removeCartItem(event) {
         buttonClicked.parentElement.parentElement.remove();
         updateCartTotal();
    
+}
+
+function quantityChanged(event) {
+    var input = event.target;
+    if (isNaN(input.value) || input.value <= 0){
+        input.value = 1;
+    }
+    updateCartTotal();
 }
 
 //Updates cart total when item is removed from cart
@@ -35,6 +51,7 @@ function updateCartTotal(){
         var quantity = quantityElement.value;
         total = total + (price * quantity);
     }
+    total = Math.round(total * 100) /100; //rounds total to nearest two decimal places
     document.getElementsByClassName('cart-total')[0].innerText = '£' + total;
 }
 
