@@ -566,6 +566,10 @@ textarea {
     .menu-container {
     padding: 55px;
 }
+    .reservation h2 {
+    font-size: 16px;
+}
+
 }
 
 
@@ -576,6 +580,7 @@ textarea {
 
     .reservation p {
         font-size: 12px;
+        line-height: 9px;
     }
 
     .product-list {
