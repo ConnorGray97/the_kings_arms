@@ -343,8 +343,48 @@ button {
 /* I took some of the css to style my own contact page from this design */
 /*END Contact Form*/
 /* contact section */
+.info-list {
+    margin: 0 auto;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.info p {
+    color: #faf0dc;
+}
+
+.info h3 {
+    font-size: 20px;
+    color: #faf0dc;
+    padding-bottom: 20px;
+}
+
+.info hr {
+    width: 100px;
+    color: #faf0dc;
+}
+
+.info i {
+    padding-bottom: 20px;
+    color: #faf0dc;
+}
+
+.info i:hover {
+    color: orange;
+}
+
 .contact-container {
-    height: 700px;
+    height: auto;
     background: #000000;
     width: 100vw;
     clear: both;
