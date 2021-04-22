@@ -36,7 +36,18 @@ function resize_parallax(div_id, img_w, img_h) {
 }
 //-----------------------------------------------END RESPONSIVE PARALLAX SCROLL VALIDATION
 
-
-//-------------------------------------------------CONTACT FORM VALIDATION
-
-//-------------------------------------------------END CONTACT FORM VALIDATION
+//Opens nav on icon click
+document.getElementById('icon').addEventListener('click', navOpen);
+function navOpen() {
+    document.querySelector('.nav-right').style.right = '0';
+}
+//Closes nav on close button click
+document.getElementById('navClose').addEventListener('click', closeNav);
+function closeNav() {
+    document.querySelector('.nav-right').style.right = '-102%';
+}
+//Closes nav on nav link click
+document.getElementsByClassName('nav-link').addEventListener('click', linkClose);
+function linkClose() {
+    document.querySelector('.nav-right').style.right = '-102%';
+}
