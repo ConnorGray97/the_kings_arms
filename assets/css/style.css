@@ -596,7 +596,15 @@ textarea {
 @media screen and (max-width: 1024px) {}
 
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .info-list {
+        max-width: 500px;
+    }
+
+    #contact-page {
+        max-width: 400px;
+    }
+}
 
 
 @media screen and (max-width: 480px) {
