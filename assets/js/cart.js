@@ -462,9 +462,10 @@ function openCart(){
 //Closes cart on close button click
 document.getElementById('close-button').addEventListener('click', closeCart);
 
-function closeCart(){
+function closeCart() {
     document.querySelector('.cart').style.transform = 'translateX(-100%)';
 }
+
 //----------------------END TOGGLE BETWEEN MENU CHOICES
 
 
