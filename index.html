@@ -17,14 +17,6 @@
          emailjs.init("user_pQSD4JPtLFNsm59EljJo1");
         })();
     </script>
-    
-     <script>
-        $(document).ready(function () { //Toggles nav bar.
-            $('#icon').click(function () {
-                $('ul').toggleClass('show');
-            });
-        });
-    </script>
 </head>
 <body>
 <!------------------------------------NAV -->
@@ -39,6 +31,9 @@
                     </div>
                     <a id="home-logo" href="#img1"><img src="./assets/img/kings-logo.png" alt="landing page logo" class="logo"></a>
                     <ul class="nav-right">
+                        <span class="nav-close">
+                        <i class="fas fa-window-close fa-lg"></i>
+                        </span>
                         <li><a class="nav-link active" href="#img1">Home</a></li>
                         <li><a class="nav-link" href="#menu" class="">Menu/Order</a></li>
                         <li><a class="nav-link" href="#reservation-section" class="">Reservations</a></li>
