@@ -458,13 +458,14 @@ document.getElementById('cart-button').addEventListener('click', openCart);
 function openCart(){
     document.querySelector('.cart').style.transform = 'translateX(0)';
 }
-
 //Closes cart on close button click
 document.getElementById('close-button').addEventListener('click', closeCart);
 
 function closeCart() {
     document.querySelector('.cart').style.transform = 'translateX(-100%)';
 }
+
+
 
 //----------------------END TOGGLE BETWEEN MENU CHOICES
 

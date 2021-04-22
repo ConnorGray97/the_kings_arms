@@ -553,8 +553,8 @@ textarea {
 }
 
 #form-button:hover {
-    background: #EFA484;
-    color: #faf0dc;
+    background: none;
+    color: orange;
 }
 
 .details {

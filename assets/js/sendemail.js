@@ -1,6 +1,6 @@
 
 
-//Credits to code institute
+//Credits to code institute for initial set up.
 //Retrieves data from contact form and sends email.
 
 let contactForm = document.getElementById("contact-form");
