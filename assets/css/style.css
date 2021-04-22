@@ -36,6 +36,7 @@ nav {
     width: 400px;
     height: 100vh;
     background: #000000;
+    padding-inline-start: 0;
     top: 80px;
     right: -102%;
     transition: all 1s;
@@ -496,11 +497,10 @@ textarea {
     color: #faf0dc;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Helvetica', Arial, sans-serif;
     font-size: 0.875em;
     font-weight: bold;
     outline: none;
-    padding: 20px 35px;
+    padding: 15px 30px;
     text-transform: uppercase;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -593,8 +593,12 @@ textarea {
     .menu-container {
     padding: 55px;
 }
-textarea {
-    width: 80%;
+#contact-page {
+    max-width: 260px;
+}
+
+#modal-open {
+    font-size: 12px;
 }
 }
 
