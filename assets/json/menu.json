@@ -1,0 +1,136 @@
+{"menu": {
+    "items": [
+        {
+            "name":"Crispy Squid",
+            "description":"Deep fried crispy baby squid. Served with mixed baby leaf salad and homemade aoli.",
+            "category":0,
+            "price": 7.99
+        },
+        {
+            "name":"Chicken Wings",
+            "description":"8 spicy, bbq or peri peri chicken wings. Served with blue cheese dipping sauce",
+            "category":0,
+            "price": 8.50
+        },
+        {
+            "name":"Popcorn Halloumi",
+            "description":"Diced halloumi deep fried in a five spice mix and served with dill and yoghurt dipping sauce",
+            "category":0,
+            "price": 6.50
+        },
+        {
+            "name":"Popcorn Chicken",
+            "description":"Diced chicken pieces deep fried in a five spice mix and served with srirachi mayo",
+            "category":0,
+            "price": 7.00
+        },
+        {
+            "name":"Fries",
+            "description":"Triple cooked, hand cut french fries served with homemade mayo",
+            "category":0,
+            "price": 4.50
+        },
+        {
+            "name":"Spicy & Sticky Chicken",
+            "description":"Crispy chicken pieces coated in a sticky harrisa sauce served with a homemade slaw",
+            "category":0,
+            "price": 7.95
+        },
+        {
+            "name":"Fish & Chips",
+            "description":"Traditional beer battered cod and chips",
+            "category":1,
+            "price": 12.50
+        },
+        {
+            "name":"Vegan Burger",
+            "description":"Plant based pattie with special blend of herbs and spices",
+            "category":1,
+            "price": 12.50
+        },
+        {
+            "name":"Full Rack of Ribs",
+            "description":"Full rack served with homemade grilling sauce and hand cut chips",
+            "category":1,
+            "price": 19.00
+        },
+        {
+            "name":"Kings Classic Burger",
+            "description":"Beef pattie with crispy bacon & American cheese. Served with hand cut chips",
+            "category":1,
+            "price": 12.50
+        },
+        {
+            "name":"Bang Bang Chicken Burger",
+            "description":"Spiced flash fried chicken breast served with red cabbage slaw and srirachi mayo",
+            "category":1,
+            "price": 12.50
+        },
+        {
+            "name":"Welsh Rarebit Burger",
+            "description":"Beef pattie served with cripsy bacon and topped with welsh rarebit paste and served with hand cut chips",
+            "category":1,
+            "price": 12.50
+        },
+        {
+            "name":"Peanut Butter Chocolate Brownie",
+            "description":"Chocolate fudge brownie with a layer of sweetened peanut butter served with ice cream",
+            "category":2,
+            "price": 6.50
+        },
+        {
+            "name":"Vanilla Cheesecake",
+            "description":"A slice of homemade vanilla cheesecake served with a scoop of vanilla icecream and raspberry sauce",
+            "category":2,
+            "price": 6.50
+        },
+        {
+            "name":"Sticky Toffee Pudding",
+            "description":"Homemade sticky toffee pudding served with either a scoop of ice cream or custard",
+            "category":2,
+            "price": 6.50
+        },
+        {
+            "name":"Ice Cream",
+            "description":"Three scoops of either chocolate, vanilla and strawberry ice cream",
+            "category":2,
+            "price": 6.50
+        },
+        {
+            "name":"Pepsi",
+            "category":3,
+            "price": 2.50
+        },
+        {
+            "name":"Diest Pepsi",
+            "category":3,
+            "price": 2.50
+        },
+        {
+            "name":"Lemonade",
+            "category":3,
+            "price": 2.50
+        },
+        {
+            "name":"Becks",
+            "category":3,
+            "price": 4.50
+        },
+        {
+            "name":"Guiness",
+            "category":3,
+            "price": 5.00
+        },
+        {
+            "name":"Kronenburg",
+            "category":3,
+            "price": 4.50
+        }
+    ],
+    "categories":[
+        "Smmall Plates",
+        "Mains",
+        "Desserts",
+        "Drinks"
+    ]
+}}
