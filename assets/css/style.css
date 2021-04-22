@@ -35,9 +35,9 @@ nav {
     position: fixed;
     width: 400px;
     height: 100vh;
+    top: 0;
     background: #000000;
     padding-inline-start: 0;
-    top: 80px;
     right: -102%;
     transition: all 1s;
     font-family: 'Libre Baskerville', serif;
@@ -73,8 +73,11 @@ nav #icon {
     display: block;
 }
 
-nav ul.show{
-    right: 0px;
+.nav-close {
+    color: #faf0dc;
+    float: right;
+    padding-right: 25px;
+    padding-top: 25px;
 }
 /* -------------------------------END NAV*/
 
