@@ -47,3 +47,36 @@ function modalClose(){
     document.querySelector('#booking-modal').style.transform = 'translateY(-200%)';
 }
 
+let bookingModal = document.getElementById("booking");
+bookingModal.addEventListener("submit", function (e) {
+    e.preventDefault();
+    let bookButton = document.getElementById("book-button");
+    bookButton.innerHTML = "Booking!";
+    emailjs.send("gmail", "kings booking", {
+        "book_name": bookingModal.bookingname.value,
+        "book_email": bookingModal.modalemailaddress.value,
+        "book_date": bookingModal.dataset.value,
+        "book_time": bookingModal.time.value
+    })
+    .then(
+        function(){
+            let bookButton = document.getElementById("book-button");
+            bookButton.innerHTML = "Request sent";
+            document.getElementById("book-button").disabled = true;
+            setTimeout(function(){
+                document.getElementById("book-button").disabled = false;
+                document.getElementById("book-button").innerHTML = "Book";
+            }, 3000);
+        },
+        function(error) {
+            alert("Please try again");
+            console.log('FAILED', error);
+        });
+    document.getElementById("booking").reset();
+    setTimeout(function(){
+        document.getElementById('booking-modal').style.transform = "translateY(-200%)";
+    }, 2000);
+   return false;
+});
+
+ 
