@@ -73,7 +73,7 @@ bookingModal.addEventListener("submit", function (e) {
             console.log('FAILED', error);
         });
     document.getElementById("booking").reset();
-    setTimeout(function(){
+    setTimeout(function(){  //After reset it waits 2 seconds before removing modal from viewport.
         document.getElementById('booking-modal').style.transform = "translateY(-200%)";
     }, 2000);
    return false;
