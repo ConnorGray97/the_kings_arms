@@ -199,7 +199,7 @@
 <div class="contact-container"  id="contact">
          <section id="contact-page">
             <h2>Contact Us</h2>
-            <form onsubmit="return sendMail(this);" id="contact-form" name="contactForm">
+            <form id="contact-form" name="contactForm">
                 <div class="name">
                     <label for="name"></label>
                     <input type="text" placeholder="Full Name" name="name" id="name" required>
@@ -240,22 +240,22 @@
         <i class="fas fa-window-close"></i>
     </div>
     <h2>Book a Table</h2>
-    <form onsubmit="return sendMail(this);" id="booking" name="bookingModal">
+    <form id="booking" name="bookingModal">
         <div class="name">
             <label for="name"></label>
-            <input type="text" placeholder="Full Name" name="book-name" id="bookingName" required>
+            <input type="text" placeholder="Full Name" name="bookingname" id="bookingName" required>
         </div>
         <div class="email">
             <label for="email"></label>
-            <input type="text" placeholder="Email" name="booking-emailaddress" id="bookingEmail" required>
+            <input type="text" placeholder="Email" name="modalemailaddress" id="bookingEmail" required>
         </div>
         <div class="date">
             <label for="date"></label>
-            <input type="date" id="date">
+            <input type="date" id="date" name="date">
         </div>
         <div class="time">
             <label for="time"></label>
-            <input type="time" id="time">
+            <input type="time" id="time" name="time">
         </div>
         <div class="submit">
             <button type="submit" id="book-button">Book</button>
