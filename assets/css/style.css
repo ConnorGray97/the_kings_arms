@@ -275,6 +275,16 @@ button {
     background: none;
 }
 
+button:hover {
+    color: orange;
+    background: none;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
 /* -------------------------------END RESERVATION SECTION */
 
 /* -------------------------------MENU SECTION */
@@ -669,6 +679,10 @@ input:focus {
     color: #faf0dc;
 }
 
+#modal-close:hover {
+    cursor: pointer;
+}
+
 
 /* -------------------------------END BOOKING MODAL */
 
@@ -710,6 +724,11 @@ input:focus {
 
 .contact-container h2 {
     font-size: 25px;
+}
+
+#booking-modal {
+    height: 100vh;
+    width: 100vw;
 }
 
 }
