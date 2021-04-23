@@ -38,11 +38,15 @@ nav {
     top: 0;
     background: #000000;
     padding-inline-start: 0;
-    right: -102%;
+    transform: translateX(-100%);
     transition: all 1s;
     font-family: 'Libre Baskerville', serif;
     font-weight: 100;
     text-transform: uppercase;
+}
+
+.nav-right.show{
+    transform: translateX(0);
 }
 
 nav li {
