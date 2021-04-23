@@ -576,6 +576,7 @@ textarea {
 
 /* -------------------------------END CONTACT FORM */
 
+/* -------------------------------GOOGLE MAPS */
 .google-container {
     height: 700px;
     background: #000000;
@@ -592,9 +593,17 @@ textarea {
     top: 20%;
     margin: 0 auto;
 }
+/* -------------------------------END GOOGLE MAPS */
 
+/* -------------------------------BOOKING MODAL */
+
+#booking-modal {
+    display: none;
+}
+/* -------------------------------END BOOKING MODAL */
 
 /* -------------------------------MEDIA QUERIES */
+
 
 @media screen and (max-width: 1024px) {}
 
