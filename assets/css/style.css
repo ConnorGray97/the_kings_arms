@@ -27,7 +27,7 @@ nav {
     height: 150px;
     text-align: center;
     padding-top: 10px;
-    padding-left: 30px;
+    padding-right: 30px;
     z-index: 300;
 }
 
@@ -71,7 +71,8 @@ nav #icon {
     color: #faf0dc;
     font-size: 30px;
     line-height: 80px;
-    float: right;
+    float: left;
+    padding-left: 30px;
     margin-right: 40px;
     cursor: pointer;
     display: block;
@@ -82,6 +83,10 @@ nav #icon {
     float: right;
     padding-right: 25px;
     padding-top: 25px;
+}
+
+.nav-close:hover{
+    cursor: pointer;
 }
 /* -------------------------------END NAV*/
 
@@ -119,13 +124,6 @@ nav #icon {
     --mainTransition: all 0.3s linear;
 }
 
-.cart-btn {
-    position: relative;
-    cursor: pointer;
-    float: left;
-    top: 25px;
-    left: 38px;
-}
 
 .nav-icon {
     font-size: 1.5rem;
@@ -134,10 +132,10 @@ nav #icon {
 .cart-btn {
     position: relative;
     cursor: pointer;
-    float: left;
-    top: 25px;
-    left: 38px;
+    float: right;
     color: #faf0dc;
+    padding-right: 30px;
+    padding-top: 22px;
 }
 
 .cart {
@@ -367,6 +365,7 @@ button {
 
 .info p {
     color: #faf0dc;
+    text-decoration: none;
 }
 
 .info h3 {
@@ -631,6 +630,14 @@ textarea {
 }
     .reservation h2 {
     font-size: 16px;
+}
+
+.info-list h3 {
+    font-size: 15px;
+}
+
+.info-list p {
+    font-size: 13px;
 }
 
 }
