@@ -35,3 +35,15 @@ contactForm.addEventListener("submit", function (e) {
     return false;
 });
 
+//Opens modal when book now button is clicked 
+document.getElementById('modal-open').addEventListener('click', modalOpen);
+function modalOpen(){
+    document.querySelector('#booking-modal').style.transform = 'translateY(0)';
+}
+
+//Closes modal when close icon in the modal in clicked
+document.getElementById('modal-close').addEventListener('click', modalClose);
+function modalClose(){
+    document.querySelector('#booking-modal').style.transform = 'translateY(-200%)';
+}
+
