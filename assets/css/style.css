@@ -612,8 +612,61 @@ footer {
 /* -------------------------------BOOKING MODAL */
 
 #booking-modal {
-    display: none;
+    position: fixed;
+    height: 400px;
+    width: 500px;
+    background-color: #000000;
+    border: 3px solid #faf0dc;
+    top: 20%;
+    left: calc(50% - 250px);
+    z-index: 1000;
+    text-align: center;
+    padding: 35px;
 }
+
+#booking-modal h2 {
+    color: #faf0dc;
+}
+
+#book-button {
+    padding: 10px;
+}
+
+#date {
+    color: #faf0dc;
+    background: transparent;
+    border: 2px solid #faf0dc;
+    border-radius: none;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#time {
+    color: #faf0dc;
+    background: transparent;
+    border: 2px solid #faf0dc;
+    border-radius: none;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+::-webkit-calendar-picker-indicator { 
+    background-color: #faf0dc; 
+}
+
+#modal-close {
+    float: right;
+    color: #faf0dc;
+}
+
+
 /* -------------------------------END BOOKING MODAL */
 
 /* -------------------------------MEDIA QUERIES */
@@ -650,6 +703,10 @@ footer {
 
 .info-list p {
     font-size: 13px;
+}
+
+.contact-container h2 {
+    font-size: 25px;
 }
 
 }
