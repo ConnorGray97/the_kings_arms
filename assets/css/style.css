@@ -617,11 +617,14 @@ footer {
     width: 500px;
     background-color: #000000;
     border: 3px solid #faf0dc;
-    top: 20%;
+    transform: translateY(-200%);
+    top: calc(50% - 200px);
     left: calc(50% - 250px);
     z-index: 1000;
     text-align: center;
     padding: 35px;
+    transform: translateY('-100%');
+    transition: all 1s;
 }
 
 #booking-modal h2 {
