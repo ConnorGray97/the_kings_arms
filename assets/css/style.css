@@ -729,9 +729,12 @@ input:focus {
 #booking-modal {
     height: 100vh;
     width: 100vw;
+    top: 0;
+    left: 0;
+    padding-top: 200px;
+}
 }
 
-}
 
 
 @media screen and (max-width: 420px) {
