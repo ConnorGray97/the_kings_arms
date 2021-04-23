@@ -46,3 +46,13 @@ document.getElementById('navClose').addEventListener('click', closeNav);
 function closeNav() {
     document.querySelector('.nav-right').style.right = '-102%';
 }
+
+//Closes nav on link click
+let navLinks = document.getElementsByClassName('nav-link');
+function linkClose() {
+    document.querySelector('.nav-right').style.right = '-102%';
+
+}
+for (let i = 0; i < navLinks.length; i++) {
+    navLinks[i].addEventListener('click', linkClose);
+}
