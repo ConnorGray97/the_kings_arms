@@ -37,20 +37,20 @@ function resize_parallax(div_id, img_w, img_h) {
 //-----------------------------------------------END RESPONSIVE PARALLAX SCROLL VALIDATION
 
 //Opens nav on icon click
-document.getElementById('icon').addEventListener('click', navOpen);
+document.getElementById('icon').addEventListener('click', navOpen, navClose);
 function navOpen() {
-    document.querySelector('.nav-right').style.right = '0';
+    document.querySelector('.nav-right').style.transform = 'translateX(0)';
 }
 //Closes nav on close button click
 document.getElementById('navClose').addEventListener('click', closeNav);
 function closeNav() {
-    document.querySelector('.nav-right').style.right = '-102%';
+    document.querySelector('.nav-right').style.transform = 'translateX(-100%)';
 }
 
 //Closes nav on link click
 let navLinks = document.getElementsByClassName('nav-link');
 function linkClose() {
-    document.querySelector('.nav-right').style.right = '-102%';
+    document.querySelector('.nav-right').style.transform = 'translateX(-100%)';
 
 }
 for (let i = 0; i < navLinks.length; i++) {
