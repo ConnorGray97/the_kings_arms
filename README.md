@@ -2,6 +2,8 @@
 # The Kings Arms, Tooley St.
 ### A fully interactive booking and ordering site for the Kings Arms, located in London.
 
+<img src="assets/docs/testing/mock-up.png">
+
 [Website Link](https://connorgray97.github.io/the_kings_arms/)
 
 
@@ -60,7 +62,7 @@ The sites main aim is to make it easier for customer and staff to maintain dista
 ## Design
 ### Colour Scheme
 
-<img src="assets/readme/kings-colour.png"/>
+<img src="assets/docs/testing/kings-colour.png"/>
 
 
 
@@ -99,7 +101,7 @@ both, the cart icon and a close icon as the cart will be 100vh.
 
 [Mobile Wireframe](https://xd.adobe.com/view/7044415e-af6a-43d1-b4d3-5e220cfe1c4b-2517/)
 ---
-[Tablet Wireframes](https://xd.adobe.com/view/716cc31a-4b4f-48b3-8c9f-d2759a8f4409-243f/)
+[Tablet Wireframes](https://xd.adobe.com/view/d85f9260-cd6a-4fea-9a81-b7f99e50fb76-8d0c/)
 ---
 [Desktop Wireframes](https://xd.adobe.com/view/7a1f421b-7a42-481b-a0fb-4e88bbe42a55-2f4c/)
 ---
