@@ -55,7 +55,7 @@ bookingModal.addEventListener("submit", function (e) {
     emailjs.send("gmail", "kings booking", {
         "book_name": bookingModal.bookingname.value,
         "book_email": bookingModal.modalemailaddress.value,
-        "book_date": bookingModal.dataset.value,
+        "book_date": bookingModal.date.value,
         "book_time": bookingModal.time.value
     })
     .then(
@@ -78,5 +78,6 @@ bookingModal.addEventListener("submit", function (e) {
     }, 2000);
    return false;
 });
+
 
  

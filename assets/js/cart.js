@@ -68,7 +68,7 @@ function quantityChanged(event) { //Makes sure user can't have any less than one
     updateCartTotal();
 }
 
-function addToCartClicked(event) {
+function addToCartClicked(event) {  //Gets the inner text of the product to be added to cart
     let button = event.target;
     let shopItem = button.parentElement.parentElement;
     let title = shopItem.getElementsByClassName('product-name')[0].innerText;

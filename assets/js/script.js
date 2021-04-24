@@ -15,16 +15,16 @@ $(window).on('resize', function () {
 
 // Resize function calls for image one.
 function resize_all_parallax() {
-    var div_id = 'img1';
-    var img_w = 1200;
-    var img_h = 636;
+    let div_id = 'img1';
+    let img_w = 2000;
+    let img_h = 1333;
     resize_parallax(div_id, img_w, img_h);
 }
 
 //this resizes the parallax image down to an appropriate size for the viewport 
 function resize_parallax(div_id, img_w, img_h) {
-    var div = $('#' + div_id);
-    var divwidth = div.width();
+    let div = $('#' + div_id);
+    let divwidth = div.width();
     if (divwidth < 769) {
         var pct = (img_h / img_w) * 105;
     } else {
@@ -34,6 +34,8 @@ function resize_parallax(div_id, img_w, img_h) {
     newheight = newheight + 'px';
     div.height(newheight);
 }
+
+
 //-----------------------------------------------END RESPONSIVE PARALLAX SCROLL VALIDATION
 
 //Opens nav on icon click
