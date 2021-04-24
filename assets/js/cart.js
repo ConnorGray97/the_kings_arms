@@ -39,7 +39,7 @@ for (let i = 0; i < addToCartButtons.length; i++) {
 document.getElementsByClassName('banner-btn')[0].addEventListener('click', purchaseClicked);
 
 }
-
+// Alerts customer to no online purchases when checkout is clicked.
 function purchaseClicked() {
     alert('Online payments are not currently available. A member of staff will be in contact shortly to process payment. Thank you!')
     let cartItems = document.getElementsByClassName('cart-list')[0];
@@ -52,7 +52,7 @@ function purchaseClicked() {
 
 
 
-
+// Removes item from cart when remove button clicked
 function removeCartItem(event) {
     let buttonClicked = event.target;
     buttonClicked.parentElement.parentElement.remove();
